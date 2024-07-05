@@ -1,0 +1,676 @@
+.controlPanelIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: cover;
+  min-height: 20px;
+}
+.dashboard {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 73px;
+}
+.dashboardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.controlPanelParent,
+.menuOptionsInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.controlPanelParent {
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.menuOptionsInner {
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xl);
+}
+.peopleIcon {
+  align-self: stretch;
+  width: 4px;
+  position: relative;
+  border-radius: 0 var(--br-base) var(--br-base) 0;
+  background-color: var(--color-white);
+}
+.peopleIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: cover;
+  min-height: 20px;
+}
+.users {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 39px;
+}
+.usersWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.peopleParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.frameWrapper,
+.peopleIconParent,
+.peopleParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) 0 0;
+}
+.peopleIconParent {
+  width: 130px;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.todoListIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: cover;
+  min-height: 20px;
+}
+.tasks {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+}
+.tasksWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.frameContainer,
+.todoListParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.todoListParent {
+  width: 150px;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) 0 var(--padding-7xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.frameContainer {
+  align-self: stretch;
+  justify-content: flex-end;
+  color: var(--color-darkgray-100);
+}
+.frameParent,
+.menuOptions {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-items: flex-start;
+  gap: var(--gap-mini);
+  color: var(--color-white);
+}
+.menuOptions {
+  align-items: flex-end;
+  gap: var(--gap-22xl);
+}
+.logoutRoundedIcon {
+  height: 17px;
+  width: 17px;
+  position: relative;
+  object-fit: cover;
+  min-height: 17px;
+}
+.logOut {
+  position: relative;
+  display: inline-block;
+  min-width: 51px;
+}
+.logOutWrapper {
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.logOutWrapper,
+.logoutRoundedParent,
+.sideMenu,
+.sideMenuInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.logoutRoundedParent {
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.sideMenu,
+.sideMenuInner {
+  justify-content: flex-end;
+  padding: 0 var(--padding-19xl);
+}
+.sideMenu {
+  height: 790px;
+  width: 256px;
+  box-shadow: 4px 0 10px #3c63b3;
+  border-radius: 0 var(--br-29xl) var(--br-29xl) 0;
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 144px var(--padding-53xl) var(--padding-38xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-333xl);
+  min-width: 256px;
+}
+.name,
+.users1 {
+  position: relative;
+  display: inline-block;
+}
+.users1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  min-width: 115px;
+}
+.name {
+  text-decoration: none;
+  font-weight: 600;
+  color: inherit;
+  min-width: 40px;
+}
+.nameCell {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.firstName1 {
+  width: 30px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.firstName {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-2xs);
+  min-width: 183px;
+}
+.last {
+  width: 29px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.fullNameRow,
+.lastName,
+.nameRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lastName {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray);
+  box-sizing: border-box;
+  padding: var(--padding-7xs) var(--padding-smi);
+  min-width: 183px;
+}
+.fullNameRow,
+.nameRow {
+  align-self: stretch;
+  gap: var(--gap-14xl);
+}
+.nameRow {
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.email {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 37px;
+}
+.emailCell {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.usergmailcom {
+  width: 114px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0;
+}
+.email1,
+.emailRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email1 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-2xs);
+}
+.emailRow {
+  width: 316px;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.department {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 82px;
+}
+.departmentPhoneCell {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3px;
+}
+.department1 {
+  border: 0.5px solid var(--color-dimgray);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  min-width: 169px;
+}
+.departmentPhoneRow {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.username {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 70px;
+}
+.passwordInput {
+  border: 0.5px solid var(--color-dimgray);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  min-width: 169px;
+}
+.departmentRow,
+.usernamePasswordRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.usernamePasswordRow {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.departmentRow {
+  flex: 1;
+  gap: var(--gap-9xl);
+  min-width: 183px;
+}
+.phone {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 43px;
+}
+.phoneWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.phoneValue {
+  width: 97px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.frameGroup,
+.phone1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.phone1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-smi);
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.password,
+.password1 {
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+}
+.password {
+  min-width: 67px;
+}
+.password1 {
+  width: 92px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 17px;
+  color: var(--color-dimgray);
+  text-align: left;
+  padding: 0;
+}
+.passwordParent,
+.passwordWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.passwordWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-xs);
+}
+.passwordParent {
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-12xs);
+  gap: var(--gap-6xs);
+}
+.departmentRow1,
+.details,
+.passwordParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.departmentRow1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-9xl);
+  min-width: 183px;
+}
+.details {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 4px;
+  gap: var(--gap-14xl);
+}
+.requiredCompletionDate {
+  position: relative;
+  font-weight: 600;
+}
+.dateInputChild {
+  width: 76px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.calendarIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: contain;
+  min-height: 20px;
+}
+.dateInput {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-5xs) var(--padding-8xs) 17px;
+  gap: var(--gap-xl);
+}
+.dateRow {
+  width: 315px;
+  flex-direction: column;
+  gap: 10px;
+}
+.dateRow,
+.nameRowParent,
+.userDetail,
+.userInformation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nameRowParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 31px;
+}
+.userDetail,
+.userInformation {
+  max-width: 100%;
+}
+.userDetail {
+  flex: 1;
+  flex-direction: column;
+  padding: 67px 0 0;
+  box-sizing: border-box;
+  min-width: 388px;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslateblue);
+}
+.userInformation {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-60xl) 0 0;
+  box-sizing: border-box;
+  min-width: 463px;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.adminHomepage,
+.content,
+.menuAndContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuAndContent {
+  width: 1061px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-54xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-inter);
+}
+.adminHomepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .menuAndContent {
+    gap: var(--gap-17xl);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .sideMenu {
+    flex: 1;
+    padding-top: 94px;
+    padding-right: 0;
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+  .users1 {
+    font-size: var(--font-size-13xl);
+  }
+  .menuAndContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .details,
+  .fullNameRow {
+    flex-wrap: wrap;
+    gap: var(--gap-base);
+  }
+  .nameRowParent {
+    gap: var(--gap-mini);
+  }
+  .userDetail {
+    padding-top: 44px;
+    box-sizing: border-box;
+  }
+  .userInformation {
+    flex-wrap: wrap;
+  }
+  .content {
+    padding-top: var(--padding-32xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .menuAndContent {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sideMenu {
+    gap: var(--gap-157xl);
+    padding-top: var(--padding-42xl);
+    padding-bottom: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .users1 {
+    font-size: var(--font-size-5xl);
+  }
+  .userDetail {
+    min-width: 100%;
+  }
+}

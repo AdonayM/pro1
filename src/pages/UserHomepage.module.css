@@ -1,0 +1,439 @@
+.menuIcon {
+  align-self: stretch;
+  width: 4px;
+  position: relative;
+  border-radius: 0 var(--br-base) var(--br-base) 0;
+  background-color: var(--color-white);
+}
+.image3Icon {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  object-fit: cover;
+}
+.assignedTasks {
+  position: relative;
+  display: inline-block;
+  min-width: 104px;
+}
+.assignedTasksWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 0;
+}
+.image3Parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.frameWrapper,
+.image3Parent,
+.menuIconParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) 0 0;
+}
+.menuIconParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.image4Icon {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  object-fit: cover;
+}
+.logOut {
+  position: relative;
+  display: inline-block;
+  min-width: 51px;
+}
+.logOutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 0;
+}
+.image4Parent,
+.sideMenuInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.image4Parent {
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.sideMenuInner {
+  justify-content: flex-end;
+  padding: 0 46px 0 var(--padding-33xl);
+  color: var(--color-gray-100);
+}
+.sideMenu {
+  height: 790px;
+  width: 256px;
+  box-shadow: 4px 0 10px #3c63b3;
+  border-radius: 0 var(--br-29xl) var(--br-29xl) 0;
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-99xl) 66px var(--padding-39xl) 0;
+  box-sizing: border-box;
+  gap: 516px;
+}
+.assignedTasks1,
+.welcomeBackUser {
+  position: relative;
+  font-weight: 600;
+}
+.assignedTasks1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.assignedTasksContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-2xs);
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.frameWrapper1,
+.welcomeBackUserNameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.welcomeBackUserNameParent {
+  align-self: stretch;
+  gap: var(--gap-8xl);
+}
+.frameWrapper1 {
+  height: 140px;
+  width: 321px;
+  max-width: 100%;
+}
+.twoOrangeWorksheetsWithTas {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  object-fit: cover;
+}
+.frameDiv,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent1 {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameDiv {
+  width: 947px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.frameChild {
+  width: 1040px;
+  height: 213px;
+  position: relative;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-thistle);
+  display: none;
+  max-width: 100%;
+}
+.companyName,
+.companyName1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 108px;
+  z-index: 1;
+}
+.companyNameHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.companyName2 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 108px;
+  z-index: 1;
+}
+.companyNameHeader1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.companyName3 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 108px;
+  z-index: 1;
+}
+.companyNameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.companyName4 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 108px;
+  z-index: 1;
+}
+.companyNameFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.companyName5 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 108px;
+  z-index: 1;
+}
+.frameGroup,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  border-radius: var(--br-17xl);
+  background-color: var(--color-thistle);
+  padding: var(--padding-2xl) var(--padding-37xl) 16px;
+  box-sizing: border-box;
+  gap: 15.8px;
+  color: var(--color-black);
+}
+.frameGroup {
+  gap: var(--gap-8xl);
+}
+.submissionBackground {
+  border: 0;
+  background-color: rgba(157, 141, 142, 0.25);
+  height: 118px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  border-radius: 17px;
+}
+.submit {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 47px;
+}
+.paperPlaneIcon {
+  height: 17.7px;
+  width: 17.7px;
+  position: absolute;
+  margin: 0 !important;
+  right: 12.3px;
+  bottom: 3.1px;
+  object-fit: contain;
+}
+.submitParent {
+  cursor: pointer;
+  border: 0;
+  padding: 3.5px var(--padding-2xs);
+  background-color: #ff4d00;
+  width: 92px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  position: relative;
+  gap: 4px;
+}
+.submitParent:hover {
+  background-color: #ff661a;
+}
+.frameContainer,
+.frameParent,
+.submissionBackgroundParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.submissionBackgroundParent {
+  width: 527px;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: 12px;
+  max-width: 100%;
+}
+.frameContainer,
+.frameParent {
+  flex-shrink: 0;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 60px;
+  max-width: 100%;
+}
+.frameContainer {
+  width: 1073px;
+  align-items: flex-start;
+  padding: 41px 33px 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 786px);
+  color: var(--color-gray-100);
+}
+.twoOrangeWorksheetsWithTas1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.twoOrangeWorksheetsWithTasWrapper {
+  height: 517px;
+  width: 422px;
+  flex-direction: column;
+  padding: var(--padding-42xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 1437px);
+  flex-shrink: 0;
+}
+.sideMenuParent,
+.twoOrangeWorksheetsWithTasWrapper,
+.userHomepage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sideMenuParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 54px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.userHomepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1425px) {
+  .sideMenu {
+    display: none;
+  }
+  .frameContainer {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .sideMenu {
+    display: none;
+  }
+  .frameParent {
+    gap: 30px;
+  }
+  .frameContainer {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .sideMenu {
+    display: none;
+    padding-top: var(--padding-58xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .assignedTasks1 {
+    font-size: var(--font-size-13xl);
+  }
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+  .frameContainer {
+    padding-top: var(--padding-8xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .twoOrangeWorksheetsWithTasWrapper {
+    padding-top: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .sideMenuParent {
+    gap: var(--gap-8xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sideMenu {
+    display: none;
+    gap: 258px;
+    padding-top: var(--padding-31xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .assignedTasks1 {
+    font-size: var(--font-size-5xl);
+  }
+  .frameContainer {
+    max-width: 100%;
+  }
+}

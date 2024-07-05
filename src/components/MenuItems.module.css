@@ -1,0 +1,135 @@
+.controlPanelIcon {
+  align-self: stretch;
+  width: 4px;
+  position: relative;
+  border-radius: 0 var(--br-base) var(--br-base) 0;
+  background-color: var(--color-white);
+}
+.controlPanelIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: cover;
+  min-height: 20px;
+}
+.dashboard {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 73px;
+}
+.dashboardWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.controlPanelLabel,
+.controlPanelLabelWrapper,
+.dashboardWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.controlPanelLabel {
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.controlPanelLabelWrapper {
+  flex-direction: column;
+  padding: var(--padding-7xl) 0 0;
+}
+.menuContainer,
+.menuItem {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.menuItem {
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.menuContainer {
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xl) 0 0;
+  color: var(--color-white);
+}
+.peopleIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: cover;
+  min-height: 20px;
+}
+.users {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 39px;
+}
+.usersWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.peopleItem,
+.peopleLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.peopleLabel {
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.peopleItem {
+  justify-content: flex-end;
+  padding: 0 var(--padding-35xl) 0 var(--padding-37xl);
+}
+.todoListIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: contain;
+  min-height: 20px;
+}
+.tasks {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+}
+.tasksWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.menuItems,
+.tasksWrapper,
+.todoItem {
+  display: flex;
+  justify-content: flex-start;
+}
+.todoItem {
+  width: 150px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-7xl) 0 var(--padding-7xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.menuItems {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-22xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-inter);
+}

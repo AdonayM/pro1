@@ -1,0 +1,9 @@
+.logIn {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 850px;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
